@@ -1,0 +1,16 @@
+{
+    "name": "oriolcortes/lsg-pr-php",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oriol Cortes"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "scripts": {
+        "lint": "vendor/bin/phpcs --standard=PSR12 --extensions=php ."
+    }
+}
